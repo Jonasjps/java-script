@@ -25,14 +25,14 @@
         }
     </style>
 </head>
-<body>
+<body onload="resultado()">
     <h1>Teste de Naturalidade</h1>
     Vamos descobrir sua naturalidade <input type="text" name="txtnat" id="txtnat"> <input type="button" value="Verificar" onclick="calcular()">
     <div id="res">
 
     </div>
     <script>
-        function calcular() {
+        function resultado() {
             var txtn = window.document.getElementById('txtnat')
             var res = window.document.getElementById('res')
             var nat  =String(txtn.value)
