@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horas</title>
+    <style>
+        body{
+            font: normal 15pt Verdana;
+        }
+        h1{
+            background-color: yellow;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        strong{
+            background-color: black;
+            color: white;
+            border-radius: 5px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Horas Atual</h1>
+    Veja a hora aqui <input type="time" name="txtho" id="txtho"> <input type="button" value="Periodo do dia" onclick="resultado()">
+    <div id="res">
+
+    </div>
+    <script>
+        function resultado() {
+            var txth = window.document.querySelector('input#txtho')
+            var res = window.document.querySelector('div#res')
+            var hora = (Number.value)
+            var hora=8
+            res.innerHTML += (`<p>Agora são exatamente <strong>${hora} horas</strong> </p>`)
+            if ( hora < 12) {
+                res.innerHTML += 'Bom dia!'
+            } else if ( hora <= 18) {
+                res.innerHTML += ('Boa tarde!')
+            } else {
+                res.innerHTML += 'Boa noite!'
+            }
+        }
+        
+        
+
+    </script>
+</body>
+</html>
