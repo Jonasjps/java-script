@@ -27,18 +27,18 @@
 </head>
 <body onload="resultado()">
     <h1>Teste de Naturalidade</h1>
-    Vamos descobrir sua naturalidade <input type="text" name="txtnat" id="txtnat"> <input type="button" value="Verificar" onclick="calcular()">
+    Vamos descobrir sua naturalidade <input type="text" name="txtnat" id="txtnat"> <input type="button" value="Verificar" onclick="verificar()">
     <div id="res">
 
     </div>
     <script>
-        function resultado() {
+        function verificar() {
             var txtn = window.document.getElementById('txtnat')
             var res = window.document.getElementById('res')
             var nat  =String(txtn.value)
-            var pais = 'Brasil'
+            var pais = ''
             res.innerHTML += (`Vivendo em <strong>${pais}</strong>`)
-            if  (pais == 'Brasil') {
+            if  (txtn == 'Brasil') {
                 res.innerHTML += `<p>Você é Brasileiro!</p>`
             }
             else {
