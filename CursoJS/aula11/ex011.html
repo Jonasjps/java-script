@@ -35,15 +35,15 @@
         function verificar() {
             var txtn = window.document.getElementById('txtnat')
             var res = window.document.getElementById('res')
-            var nat  =String(txtn.value)
-            var pais = ''
+            pais=''
             res.innerHTML += (`Vivendo em <strong>${pais}</strong>`)
-            if  (txtn == 'Brasil') {
+            if  (txtn.value.length == 'Brasil') {
                 res.innerHTML += `<p>Você é Brasileiro!</p>`
             }
             else {
                 res.innerHTML += `<p>Você é Estrangeiro!</p>`
-            } 
+            }   
+            
             
         }
     </script>
