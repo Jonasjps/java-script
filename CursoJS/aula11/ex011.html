@@ -8,6 +8,7 @@
     <style>
         body{
             font: normal 15pt Arial;
+            font-size: 3vw;
         }
         div {
             margin-top: 10px;
@@ -22,12 +23,16 @@
         strong{
             background-color: greenyellow;
             padding: 5px;
+            border-radius: 5px;
         }
     </style>
 </head>
 <body>
     <h1>Teste de Naturalidade</h1>
     Vamos descobrir sua naturalidade <input type="text" name="txtnat" id="txtnat"> <input type="button" value="verificar" onclick="Resultado()">
+    <div id="viv">
+
+    </div>
     <div id="res">
 
     </div>
@@ -36,19 +41,21 @@
             
             var txtn = window.document.getElementById('txtnat')
             var res = window.document.getElementById('res')
+            var viv = window.document.getElementById('viv')
             var nat = String(txtn.value)
             
             if (txtn.value ==0 ) {
                 window.alert('[ERRO] Verifique os dados e tente novamente!')
                 
             }
-            if  (nat == 'Brasil') {
-                res.innerHTML=(`<p>Você é Brasileiro!</p>`)
+            if  (nat == 'Brasil'|| nat == 'brasil') {
+                res.innerHTML = `<p>Você é Brasileiro!</p>`
             }
             else {
-                res.innerHTML=(`<p>Você é Estrangeiro!</p>`)
+                res.innerHTML = `<p>Você é Estrangeiro!</p>`
             }
-            res.innerHTML += `<p>Vivendo em  <strong>${nat}</strong></p>`
+            viv.innerHTML = `<p>Vivendo em  <strong>${nat}</strong></p>`
+            
         }
     </script>
 </body>
