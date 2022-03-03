@@ -26,3 +26,11 @@ footer {
     text-align: center;
     font-style: italic;
 }
+footer  a {
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+footer a:hover {
+    text-decoration: underline;
+}
