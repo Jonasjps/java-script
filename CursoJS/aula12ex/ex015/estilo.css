@@ -5,7 +5,7 @@ background-color: rgb(111, 174, 255);
 font: normal 15pt Arial;
 
 }
-h1 {
+header > h1 {
     font-size: 3vw;
 }
 
