@@ -3,6 +3,7 @@
 body{
 background-color: rgb(111, 174, 255);
 font: normal 15pt Arial;
+width: 100vw;
 }
 
 
@@ -15,19 +16,11 @@ section {
 
 background-color: white;
 padding: 15px;
-max-width: 600px;
+
 border-radius: 10px;
 margin: auto;
 width: 300px;
 box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.418);
-}
-div {
-    padding-right: 15px;
-    
-    
-}
-div#res{
-    padding-right: 15px;
 }
 
 footer {
