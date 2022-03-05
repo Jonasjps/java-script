@@ -3,10 +3,9 @@
 body{
 background-color: rgb(111, 174, 255);
 font: normal 15pt Arial;
-margin-right: 0x;
-
 
 }
+
 
 header{
     color: white;
@@ -20,10 +19,12 @@ padding: 15px;
 width: 500px;
 border-radius: 10px;
 margin: auto;
+width: 400px;
 box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.418);
 }
 div {
     padding-right: 15px;
+    
 }
 div#res{
     padding-right: 15px;
