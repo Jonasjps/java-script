@@ -13,14 +13,16 @@ header{
 }
 
 section {
-
 background-color: white;
 padding: 15px;
-
 border-radius: 10px;
 margin: auto;
 width: 300px;
 box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.418);
+}
+
+div > p {
+    text-align: center;
 }
 
 footer {
