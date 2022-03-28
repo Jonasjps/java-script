@@ -73,12 +73,14 @@
             var res = window.document.getElementById('res')
             var viv = window.document.getElementById('viv')
             var nat = String(txtn.value)
+            nat = nat.toUpperCase();
+
             
             if (txtn.value ==0 ) {
                 window.alert('[ERRO] Verifique os dados e tente novamente!')
                 
             }
-            if  (nat == 'Brasil'|| nat == 'brasil') {
+            if  (nat == 'BRASIL') {
                 res.innerHTML = `<p>Você é Brasileiro!</p>`
             }
             else {
