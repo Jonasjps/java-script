@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contando de 1 a 10</title>
+    <style>
+        body {
+            font: 10pt Arial;
+        }
+        input {
+            padding: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contando de 1 a 10</h1>
+    <section>
+        <p>
+            <input type="button" value="Contar de 1 a 10" onclick="Contar()">
+        </p>
+        <div id="result">
+            Aperte o botão acima para contar...
+        </div>
+    </section>
+    <script>
+        function Contar() {
+            
+            let res = document.querySelector('div#result')
+            res.innerHTML += '<h2>Contando de 1 até 10</h2>'
+            for(let c = 1 ; c <= 10 ; c++) {
+              
+                res.innerHTML += `${c} &#x1F449; `
+            }
+            res.innerHTML += `&#x1F3C1; `
+        }
+    </script>
+</body>
+</html>
