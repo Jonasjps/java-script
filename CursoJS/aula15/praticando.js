@@ -1,10 +1,10 @@
 let num = [5, 8, 4, 9, 7]
-/*num.sort()
-
-
+num.sort()
+console.log(num)
+/*
 num.push(10)
 
-console.log(num)
+
 //
 console.log(`O vetor tem ${num.length} posições!`)
 
@@ -18,11 +18,11 @@ console.log(num[5])
 for(let pos = 0 ; pos < num.length ; pos ++) {
     console.log(`A posição ${pos} tem o valor ${num[pos]}`)
 }*/
- let pos = num.indexOf(9)
+ let pos = num.indexOf(7)
 if(pos == -1){
     console.log('Não encontrado!')
 }else {
-   console.log(`O vetor 9 esta na posição  ${pos}`)
+   console.log(`  posição  ${pos}`)
 }
 
 /*for(let pos in num) {//SIMPLIFICANDDO MEU CODIGO...
