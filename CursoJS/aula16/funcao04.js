@@ -5,4 +5,4 @@
      }
      return fat
  }
- console.log(fatorial(5))
+ console.log(fatorial(10).toLocaleString('pt-BR'))
