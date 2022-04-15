@@ -18,11 +18,11 @@ console.log(num[5])
 for(let pos = 0 ; pos < num.length ; pos ++) {
     console.log(`A posição ${pos} tem o valor ${num[pos]}`)
 }*/
- let pos = num.indexOf(5)
+ let pos = num.indexOf(9)
 if(pos == -1){
     console.log('Não encontrado!')
 }else {
-   console.log(`O vetor 9 esta na posição  ${num[pos]}`)
+   console.log(`O vetor 9 esta na posição  ${pos}`)
 }
 
 /*for(let pos in num) {//SIMPLIFICANDDO MEU CODIGO...
