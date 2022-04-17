@@ -3,7 +3,7 @@ let lista = document.querySelector('select#flista')
 let res = document.querySelector('div#result')
 let valores = []
 
-function isNumero(n) {
+function Numero(n) {
     if(Number(n) >= 1 && Number(n) <=100) {
         return true
     } else {
@@ -11,7 +11,7 @@ function isNumero(n) {
     }
 
 }
-function inLista(n, l) {
+function Lista(n, l) {
     if (l.indexOf(Number(n)) != -1) {
         return true
     } else {
@@ -21,7 +21,7 @@ function inLista(n, l) {
 }
 
 function Adicionar( ) {
-    if(isNumero(num.value) && !inLista(num.value, valores)) { // ! o sinal quer dizer não!
+    if(Numero(num.value) && !Lista(num.value, valores)) { // ! o sinal quer dizer não!
         valores.push(Number(num.value))
         let item = document.createElement('option')
         item.text =`Valor ${num.value} adicionado`
