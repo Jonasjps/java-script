@@ -1,8 +1,8 @@
 let NomedaNave = ['Jonas', 'Maria','José','Virginia']
 
-console.log(NomedaNave)
 
-let RemovendoNomes = NomedaNave.splice(1,2, 'Carol','Jesica','Jeferson')
+
+let RemovendoNomes = NomedaNave.slice(1,3)
 
 console.log(NomedaNave)
 
