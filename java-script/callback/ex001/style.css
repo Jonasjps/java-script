@@ -1,0 +1,20 @@
+@charset "UTF-8";
+h1{
+background-color: rgb(86, 86, 252);
+padding: 10px;
+border-radius: 10px;
+color: white;
+text-align: center;
+}
+
+input#callback-btn {
+    padding: 25px;
+    background-color: green;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.39);
+    font: 20pt Arial;
+    
+    
+}
+
