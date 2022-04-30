@@ -1,10 +1,7 @@
-var frutas = ['banana', 'apple', 'grapes', 'mango', 'melancia'];
+const frutas = ['banana', 'apple', 'grapes', 'mango', 'melancia'];
 
-function filterItems(query) {
-    return frutas.filter(function(el) {
-        return el.toLowerCase().indexOf(query.toLowerCase()) > -1;
-    })
-}
+ const filterItems = (query) =>  frutas.filter(el =>  el.toLowerCase().indexOf(query.toLowerCase()) > -1)
+
 
 console.log(filterItems('ap'))
 console.log(filterItems('an'))
