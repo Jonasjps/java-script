@@ -11,3 +11,11 @@ console.log(numeros.sort(
         
     
 ))
+
+/*
+RESPOSTA
+
+antes = [ 6, 3, 4, 100, 2, 5 ]
+depois = [ 2, 3, 4, 5, 6, 100 ]
+
+*/

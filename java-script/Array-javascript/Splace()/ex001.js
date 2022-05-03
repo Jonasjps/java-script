@@ -19,3 +19,19 @@ console.log(removed)
 removed = myfish.splice(3, Number.MAX_VALUE)
 console.log(myfish)
 console.log(removed)
+
+/*
+RESPOSTA
+
+[ 'angel', 'clown', 'drum', 'mandarin', 'surgeon' ]
+[]
+[ 'angel', 'clown', 'drum', 'surgeon' ]
+[ 'mandarin' ]
+[ 'angel', 'clown', 'trumpet', 'surgeon' ]
+[ 'drum' ]
+[ 'parrot', 'anemone', 'blue', 'trumpet', 'surgeon' ]
+[ 'angel', 'clown' ]
+[ 'parrot', 'anemone', 'blue' ]
+[ 'trumpet', 'surgeon' ]
+
+*/

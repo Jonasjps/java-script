@@ -10,3 +10,14 @@ itens.sort((a,b) => a.Nome.localeCompare(b.Nome))
 
 console.log(itens)
 
+/*
+RESPOSTA
+
+[
+  { Nome: 'Jonas', idade: 27 },
+  { Nome: 'Maria', idade: 35 },
+  { Nome: 'Marley', idade: 3 },
+  { Nome: 'Virgina', idade: 29 }
+]
+
+*/
