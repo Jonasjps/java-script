@@ -5,3 +5,5 @@ function array(value) {
 var filtered = [9, 2,  11, 14, 20, 5, 100, 150].filter(array);
 
 console.log(filtered)
+
+//resposta = [ 11, 14, 20, 100, 150 ]

@@ -5,3 +5,11 @@ const frutas = ['banana', 'apple', 'grapes', 'mango', 'melancia'];
 
 console.log(filterItems('ap'))
 console.log(filterItems('an'))
+
+/*
+RESPOSTA
+ 
+[ 'apple', 'grapes' ]
+[ 'banana', 'mango', 'melancia' ]
+
+*/
