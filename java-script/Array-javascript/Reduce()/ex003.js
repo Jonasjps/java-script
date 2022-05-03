@@ -9,6 +9,6 @@ const cart = [
     { Pais: 'Japão', Lancamento: 3}
 ];
 
-const produtosdaLista = cart.reduce((acumulador, {Pais}) => `${acumulador} - ${Pais}\n`, '')
+const produtosdaLista = cart.reduce((acumulador, {Pais}) => `${acumulador}- ${Pais}\n`, '')
 
 console.log(produtosdaLista);
