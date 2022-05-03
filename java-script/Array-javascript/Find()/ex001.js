@@ -3,3 +3,5 @@ let array1 = array.find(element => element > 17);
 
 console.log(array1);
  console.log(array)//find não altera o array á qual foi acionado!
+
+ //resposta = 20

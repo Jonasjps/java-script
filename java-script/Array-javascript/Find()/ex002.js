@@ -10,3 +10,5 @@ const iventario = [
 const resultado = iventario.find(fruta => fruta.Nome === 'Maca');
 
 console.log(resultado);
+
+//resposta = { Nome: 'Maca', Quantidade: 2 }
