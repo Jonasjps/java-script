@@ -10,3 +10,10 @@ function atualizarColecaoVegetais (Vegetais, vegetal) {
 var vegetais = ['Batata', 'Tomate', 'Pimenta', 'Pimentão'];
 
 atualizarColecaoVegetais(vegetais, 'Cenoura');
+
+/*
+RESPOSTA
+
+Nova coleção de vegetais é: Batata,Tomate,Pimenta,Pimentão,Cenoura
+
+*/

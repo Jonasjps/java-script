@@ -7,3 +7,4 @@ const elementIndex = numeros.findIndex(checkNumber);
 
 console.log(elementIndex)
 
+// resposta = 0
