@@ -12,3 +12,15 @@ const cart = [
 const produtosdaLista = cart.reduce((acumulador, {Pais}) => `${acumulador}- ${Pais}\n`, '')
 
 console.log(produtosdaLista);
+
+/*
+RESPOSTA
+
+- Russia
+- US
+- China
+- Europa
+- India
+- Japão
+
+*/
