@@ -9,4 +9,4 @@ const foguetes = [
 
 const totaldelancamentos = foguetes.reduce((prevVal, elem) => prevVal + elem.Lançamentos, 0);
 
-console.log(totaldelancamentos);
+console.log(totaldelancamentos);//resposta 85
