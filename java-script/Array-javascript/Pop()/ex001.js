@@ -7,3 +7,11 @@ console.log(Meupeixe)
 console.log(MeupeixePop)
 
 
+/*
+RESPOSTA
+
+[ 'acara-bandeira', 'palhaça', 'mandarim', 'esturjão' ]
+[ 'acara-bandeira', 'palhaça', 'mandarim' ]
+esturjão
+
+*/

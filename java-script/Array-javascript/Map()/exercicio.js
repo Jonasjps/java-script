@@ -9,3 +9,10 @@ let duplos = numeros.map(num => num * 2
 
 console.log(duplos)
 
+/*
+RESPOSTA
+
+[ 1, 4, 9 ]
+[ 2, 8, 18 ]
+
+*/

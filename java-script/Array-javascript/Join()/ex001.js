@@ -7,3 +7,12 @@ console.log(elementos.join())
 console.log(elementos.join(""))
 
 console.log(elementos.join("-"))
+
+/*
+RESPOSTA
+
+Fire,Air,Water
+FireAirWater
+Fire-Air-Water
+
+*/

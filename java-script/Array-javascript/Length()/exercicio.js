@@ -3,3 +3,11 @@ var frutas = ['Maça', 'Banana']
 
 console.log(frutas.length)
 console.log(frutas)
+
+/*
+RESPOSTA
+
+2
+[ 'Maça', 'Banana' ]
+
+*/
