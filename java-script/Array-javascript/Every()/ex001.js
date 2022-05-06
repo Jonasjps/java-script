@@ -4,4 +4,4 @@ let maior = maiorque10.every(element => element > 10);
 
 console.log(maior);
 
-// resposta = true.
+// resposta = true..
