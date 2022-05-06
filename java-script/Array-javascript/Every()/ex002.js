@@ -1,4 +1,4 @@
-//Verifica se todos são maiores de idade.
+,//Verifica se todos são maiores de idade.
 
 const lista = [
     { id: 12, nome: 'Frederico', Idade: 18 },
