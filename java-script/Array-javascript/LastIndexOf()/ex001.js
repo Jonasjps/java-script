@@ -20,10 +20,12 @@ Novoarray = array.lastIndexOf(2, -1);
 console.log(Novoarray);
 
 /*
+
 3
 -1
 3
 0
 0
 3
+
 */
