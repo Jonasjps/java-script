@@ -1,3 +1,5 @@
+//OBJETO
+
 let dados = {
     nome: 'Jonas',
     idade: 27,
